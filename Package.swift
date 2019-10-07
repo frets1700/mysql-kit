@@ -26,7 +26,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "1.0.0"),
         
         // *️⃣ Build SQL queries in Swift. Extensible, protocol-based design that supports DQL, DML, and DDL.
-        .package(url: "https://github.com/vapor/sql.git", from: "2.0.0"),
+        .package(url: "https://github.com/frets1700/sql-kit.git", .branch("2.1")),
 
     ],
     targets: [
